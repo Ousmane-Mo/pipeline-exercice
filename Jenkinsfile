@@ -9,10 +9,9 @@ pipeline {
         stage('Hello') {
             steps {
                 echo 'Hello World'
-            }
-            {
                 echo 'Let\'s test steps'
             }
+            
         }
         
     }
