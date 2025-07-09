@@ -15,7 +15,7 @@ pipeline {
                     maven: 'mvn_3.9.9',
                     jdk: 'jdk-21',
                 ) {
-                    sh 'mvn package'
+                    bat 'mvn package'
                 }
             }
         }
